@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SOAP-ENV:Header />
+    <SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <m:GetListaDenuncias xmlns:m="http://www.sideat.com.ar/sideatweb/WebServices">
+            <username xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">PRUEBA WEB</username>
+            <password xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">123456.P</password>
+            <provincia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">1</provincia>
+            <localidad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">1</localidad>
+            <centro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">1</centro>
+            <nrodenuncia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <nrofact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <fechaFrom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">21/09/2017</fechaFrom>
+            <fechaTo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">21/09/2017</fechaTo>
+            <fechaquien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">denuncia</fechaquien>
+            <nrodocumento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <nrodocquien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <nombrequien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <dominio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <codmarca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <codmodelo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string" />
+            <clase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xsd:string">propias</clase>
+        </m:GetListaDenuncias>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

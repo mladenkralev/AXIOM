@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="axiom_main" target="1.8" />
+      <module name="axiom_test" target="1.8" />
+      <module name="workingDemo_main" target="1.8" />
+      <module name="workingDemo_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
