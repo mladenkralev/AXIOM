@@ -1,0 +1,12 @@
+.classpath
+.project
+.settings/
+
+build/
+bin/
+
+.gradle
+/classes/
+/ui/
+/gradle-app.setting
+/.idea
