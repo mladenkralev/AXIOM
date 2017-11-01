@@ -8,11 +8,4 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-    // https://mvnrepository.com/artifact/org.apache.ws.commons.axiom.wso2/axiom
-    // https://mvnrepository.com/artifact/org.apache.ws.commons.axiom/axiom-impl
-    compile group: 'org.apache.ws.commons.axiom', name: 'axiom-impl', version: '1.2.20'
-
-
-
 }

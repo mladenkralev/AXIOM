@@ -1,0 +1,12 @@
+<service name="Version">
+    <description>
+        This service is to get the running Web Services Stack version
+    </description>
+    <parameter name="ServiceClass">com.softwareag.wsstack.VersionService</parameter>
+    <operation name="getVersion">
+        <messageReceiver  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+    <operation name="getPlainVersion">
+        <messageReceiver  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+    </operation>
+</service>
